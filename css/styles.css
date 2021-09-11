@@ -52,7 +52,7 @@ body{
   box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
   transition-duration: 0.2s;
 }
-.navlist, li{
+.navlist, .navlistitm{
   display: inline-block;
   margin-left: 15px;
 }
@@ -117,7 +117,7 @@ a:focus {
 .send{
   border: none;
   font-family: inherit;
-  background-color: var(--button-color);
+  background-color: var(--secondary-color);
   color: white;
   text-decoration: none;
   padding: 10px;
@@ -324,6 +324,18 @@ button:focus,
 }
 .rainb{
   animation: 0.3s rainb infinite linear;
+}
+.email, .phone{
+  text-decoration: none;
+}
+.messageme, .messageme1{
+  text-align: center;
+}
+.contactme{
+  text-align: center;
+}
+.messageme1{
+  line-height: 0pt;
 }
 
 
