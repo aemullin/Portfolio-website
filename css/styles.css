@@ -1,13 +1,3 @@
-/*
-Colors used
-
-Text Color : black;
-Secondary Text Color: White:
-Primary Color: #7C7C7C;
-Secondary Color: #616161;
-Button Color: #444545;
-*/
-
 :root {
   --text-color: black;
   --secondary-text-color: white;
@@ -77,6 +67,18 @@ body {
   width: 200px;
   margin-right: 40px;
   border-radius: 50%;
+}
+
+@media all and (max-width: 440px) {
+  .profilepic {
+    float: none;
+    position: relative;
+    left: 22px;
+  }
+
+  .profile {
+    text-align: center;
+  }
 }
 
 .profilepic,
