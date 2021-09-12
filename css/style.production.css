@@ -152,9 +152,8 @@ a:focus {
 
 input{
   background-color: white;
-  border: none;
   border-style: hidden;
-  border-bottom: 2px solid black;
+  border: 2px solid black;
 }
 textarea{
   background-color: white;
@@ -419,9 +418,10 @@ button:focus,
 .messageme, .messageme1{
   text-align: center;
 }
-.contactme{
+.contactform{
   text-align: center;
 }
+
 .messageme1{
   line-height: 0pt;
 }
