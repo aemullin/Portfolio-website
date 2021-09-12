@@ -70,6 +70,11 @@ body {
 }
 
 @media all and (max-width: 440px) {
+  .logo {
+    position: relative;
+    top: 25px;
+  }
+
   .profilepic {
     float: none;
     position: relative;
