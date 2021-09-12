@@ -263,11 +263,11 @@ ul {
     grid-row: auto/auto;
   }
 
-  h2 {
+  .griditmheading {
     font-size: 20px;
   }
 
-  p {
+  .griditmcontent {
     font-size: 18px;
   }
 }
@@ -294,11 +294,11 @@ ul {
     grid-row: auto/auto;
   }
 
-  h2 {
+  .griditmheading {
     font-size: 26px;
   }
 
-  p {
+  .griditmcontent {
     font-size: 20px;
   }
 }
