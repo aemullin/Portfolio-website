@@ -398,8 +398,30 @@ button:focus,
   text-align: center;
 }
 
+.messagehead {
+  text-decoration: underline;
+}
+
+.contactalex {
+  text-align: center;
+}
+
+.contactinfo {
+  position: relative;
+  right: 19px;
+}
+
 .contactform {
   text-align: center;
+}
+
+.contactme {
+  padding: 3px;
+  margin: 0 auto;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .messageme1 {

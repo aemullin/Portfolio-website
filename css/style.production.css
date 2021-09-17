@@ -502,8 +502,37 @@ button:focus,
   text-align: center;
 }
 
+.messagehead {
+  text-decoration: underline;
+}
+
+.contactalex {
+  text-align: center;
+}
+
+.contactinfo {
+  position: relative;
+  right: 19px;
+}
+
 .contactform {
   text-align: center;
+}
+
+.contactme {
+  padding: 3px;
+  margin: 0 auto;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .messageme1 {
