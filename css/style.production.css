@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -20,29 +20,29 @@ body {
 
 .pageheaderitm {
   -webkit-box-flex: 0;
-  -ms-flex: 0 1 200px;
-  flex: 0 1 200px;
+      -ms-flex: 0 1 200px;
+          flex: 0 1 200px;
 }
 
 .pageheaderitm:last-child {
   -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   text-align: right;
 }
 
 .logo {
   -webkit-box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
-  box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
+          box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
   border-radius: 10%;
 }
 
 .logo:hover {
   -webkit-box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.3);
-  box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
-  transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 
 .navlist,
@@ -86,18 +86,18 @@ body {
 
 .profilepic {
   -webkit-box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
-  box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
+          box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
 }
 
 .profilepic1 {
   -webkit-box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
-  box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
+          box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
 }
 
 .profiletext {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 100px;
-  flex: 1 1 100px;
+      -ms-flex: 1 1 100px;
+          flex: 1 1 100px;
 }
 
 h1 {
@@ -141,6 +141,17 @@ table {
   background-color: white;
 }
 
+.work-img {
+  border-radius: 10px;
+}
+.info-container{
+  margin-left: 5px;
+}
+
+.work-container{
+  display: flex;
+}
+
 .tablehead {
   font-weight: 600;
   text-decoration: underline;
@@ -157,8 +168,8 @@ a:focus {
   text-decoration: none;
   opacity: 0.9;
   -webkit-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
-  transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 
 .send {
@@ -178,8 +189,8 @@ a:focus {
   cursor: pointer;
   opacity: 0.8;
   -webkit-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
-  transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 
 input {
@@ -211,7 +222,7 @@ ul {
   background-color: #40bfa1;
   padding: 10px;
   -webkit-box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
-  box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
+          box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
   border-radius: 30px;
 }
 
@@ -339,7 +350,7 @@ button {
   padding: 10px;
   border-radius: 3px;
   -webkit-box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
-  box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
+          box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
 }
 
 .button {
@@ -354,7 +365,7 @@ button {
   padding: 10px;
   border-radius: 3px;
   -webkit-box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
-  box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
+          box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.5);
 }
 
 button:hover,
@@ -362,10 +373,10 @@ button:focus,
 .button:hover,
 .button:focus {
   -webkit-box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.3);
-  box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
-  transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 
 .raincloud {
@@ -374,7 +385,7 @@ button:focus,
   margin-right: auto;
   margin-bottom: none;
   -webkit-animation: 1s cloud infinite alternate linear;
-  animation: 1s cloud infinite alternate linear;
+          animation: 1s cloud infinite alternate linear;
 }
 
 .seattle {
@@ -388,24 +399,24 @@ button:focus,
 @-webkit-keyframes cloud {
   from {
     -webkit-transform: translate(230px, 40px);
-    transform: translate(230px, 40px);
+            transform: translate(230px, 40px);
   }
 
   to {
     -webkit-transform: translate(230px, 40px);
-    transform: translate(230px, 40px);
+            transform: translate(230px, 40px);
   }
 }
 
 @keyframes cloud {
   from {
     -webkit-transform: translate(230px, 40px);
-    transform: translate(230px, 40px);
+            transform: translate(230px, 40px);
   }
 
   to {
     -webkit-transform: translate(230px, 40px);
-    transform: translate(230px, 40px);
+            transform: translate(230px, 40px);
   }
 }
 
@@ -455,12 +466,12 @@ button:focus,
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 100px;
-  flex: 1 1 100px;
+      -ms-flex: 1 1 100px;
+          flex: 1 1 100px;
 }
 
 .aboutfooter {
@@ -489,7 +500,7 @@ button:focus,
 
 .rainb {
   -webkit-animation: 0.3s rainb infinite linear;
-  animation: 0.3s rainb infinite linear;
+          animation: 0.3s rainb infinite linear;
 }
 
 .email,
@@ -528,11 +539,11 @@ button:focus,
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .messageme1 {

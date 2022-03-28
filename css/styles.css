@@ -113,6 +113,10 @@ table,
   font-size: var(--general-font-size);
 }
 
+.work-img {
+  border-radius: 10px;
+}
+
 table {
   border: solid 1px black;
   background-color: white;
@@ -166,6 +170,11 @@ textarea {
   border: 2px solid var(--text-color);
   width: 200px;
   height: 90px;
+}
+
+.work-container{
+  display: flex;
+  justify-content: space-around;
 }
 
 ul {
