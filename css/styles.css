@@ -209,10 +209,20 @@ ul {
   grid-row: 2/4;
 }
 
+.work-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media all and (min-width: 1px) and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 10px;
+  }
+
+  .work-container{
+    display: inline;
   }
 
   .griditm:last-child {
@@ -243,6 +253,10 @@ ul {
   .grid {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+  }
+
+  .work-container{
+    display: inline;
   }
 
   .griditm:last-child {

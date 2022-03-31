@@ -252,6 +252,12 @@ ul {
   grid-row: 2/4;
 }
 
+.work-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media all and (min-width: 1px) and (max-width: 500px) {
   .grid {
     -ms-grid-columns: 1fr;
@@ -259,6 +265,9 @@ ul {
     grid-gap: 10px;
   }
 
+  .work-container{
+    display: block;
+  }
   .griditm:last-child {
     grid-column: auto/auto;
     grid-row: auto/auto;
@@ -288,6 +297,10 @@ ul {
     -ms-grid-columns: 1fr 10px 1fr;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+  }
+
+  .work-container{
+    display: block;
   }
 
   .griditm:last-child {
