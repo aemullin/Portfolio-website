@@ -236,6 +236,12 @@ ul {
   justify-content: space-around;
 }
 
+.chat-img{
+  width: 40%;
+  height: auto;
+  
+}
+
 .work-img{
   display: block;
   margin-left: auto;
