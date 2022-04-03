@@ -181,13 +181,19 @@ ul {
   list-style-type: none;
 }
 
+.work-heading{
+  text-align: center;
+}
+
 .work-item {
   background-color: var(--secondary-color);
   padding: 10px;
   box-shadow: var(--favorite-shadow);
   border-radius: 30px;
   text-align: center;
-  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;;
 }
 
 .chat-container{
