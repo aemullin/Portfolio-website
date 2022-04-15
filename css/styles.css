@@ -18,55 +18,71 @@
 body {
   font-family: 'Varela Round', sans-serif;
   font-weight: 400;
-  padding: 20px;
   background-color: var(--primary-color);
 }
 
-.pageheader {
+header {
+  min-height: 60vh;
+  background-color: #B9D6F2;
   display: flex;
-  width: 100%;
-  padding: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
-.pageheaderitm {
-  flex: 0 1 200px;
+nav {
+  min-height: 10vh;
+  background-color: #061A40;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: sticky;
+  color: white;
+  top: 0;
+}
+section{
+  min-height: 90vh;
+  text-align: center;
+
 }
 
-.pageheaderitm:last-child {
-  flex-grow: 1;
-  text-align: right;
-}
-
-.logo {
-  box-shadow: var(--favorite-shadow);
-  border-radius: 10%;
-}
-
-.logo:hover {
-  box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.3);
-  transition-duration: 0.2s;
-}
-
-.navlist,
-.navlistitm {
-  display: inline-block;
-  margin-left: 15px;
-}
-
-.menubar {
-  font-size: 25px;
+.profile-content{
+  background-color: #0353A4;
+  padding-top: 10vh;
 }
 
 .profile {
   max-width: 700px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
+
 
 .profilepic {
   float: left;
   width: 200px;
   margin-right: 40px;
   border-radius: 50%;
+}
+
+.work-content{
+  background-color: #006DAA;
+  min-height: 100vh;
+
+}
+
+
+
+.contact-content{
+  background-color: #003559;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  color: white;
 }
 
 @media all and (max-width: 440px) {
@@ -182,8 +198,8 @@ textarea {
 }
 
 .chat-img{
-  width: 40%;
-  height: auto;
+  width: auto;
+  height: 39vh;
   border-radius: 10px;
   
 }
@@ -194,28 +210,51 @@ ul {
 
 .work-heading{
   text-align: center;
+  margin-top: 0;
+  padding-bottom: 2.5vh;
+  padding-top: 2.5vh;
+}
+
+.work-heading1{
+  text-align: center;
+  margin-top: 0;
+  padding-top: 10vh;
+  margin-bottom: 0;
 }
 
 .worklist{
   padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+  min-height: 80vh;
 }
 
+.worklist::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
 .work-item {
-  background-color: var(--secondary-color);
+  background-color: #B9D6F2;
   padding: 10px;
   box-shadow: var(--favorite-shadow);
   border-radius: 30px;
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 20px;;
+  margin-top: 20px;
+  min-width: 80vw;
+  max-height: 75vh;
 }
 
 .chat-container{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}s
+}
 
 .work-img{
   display: block;
@@ -318,12 +357,13 @@ button:focus,
     opacity: 1;
   }
 }
-
-.pagefooter {
+footer {
   display: flex;
   flex-direction: column;
   text-align: center;
   flex: 1 1 100px;
+  background-color: #B9D6F2;
+  min-height: 20vh;
 }
 
 .aboutfooter {

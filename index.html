@@ -10,43 +10,142 @@
   </head>
   <body>
     <header class="pageheader">
-      <div>
-        <a href="index.html"><img src="img/logo.png" alt="web logo" class="pageheaderitm logo"></a>
-      </div>
-      <nav class="mainnav pageheaderitm">
-        <ul class="menubar navlist" role="menubar">
-          <li role="presentation" class="navlistitm">
-            <a href="index.html" role="menuitem" class="navlistitmactv">Home</a>
-          </li>
-          <li role="presentation" class="navlistitm">
-            <a href="about.html" role="menuitem">About</a>
-          </li>
-          <li role="presentation" class="navlistitm">
-            <a href="work.html" role="menuitem">Work</a>
-          </li>
-          <li role="presentation" class="navlistitm">
-            <a href="contact.html" role="menuitem">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <h1> Alexander Mullin </h1>
     </header>
-    <div class="profile">
-      <img src="img/profile.jpg" alt="picture of Alex" class="profilepic">
-      <div class="profiletext">
-        <h1 class="hello"> Hello World </h1>
-        <h2> I am Alexander Mullin, an aspiring web developer from Tacoma, WA </h2>
-        <div class="worklink-container"><a class="worklink" href="work.html"> Check out my work </a></div>
-      </div>
+    <div class="web-container">
+      <nav class="mainnav pageheaderitm">
+            <a href="#about" role="menuitem">About</a>
+            <a href="#work" role="menuitem">Work</a>
+            <a href="#contact" role="menuitem">Contact</a>
+      </nav>
+      <section id="about" class="content profile-content">
+        <div class="profile">
+            <img src="img/profile.jpg" alt="picture of Alex" class="profilepic">
+            <div class="profiletext">
+              <h1 class="hello"> Hello World </h1>
+              <h2> I am Alexander Mullin, an aspiring web developer from Tacoma, WA </h2>
+            </div>
+        </div>
+        <h1 class="who">About Me</h1>
+        <div class="biohead">
+          <h2>Who am I?</h2>
+          <p>My name is Alexander Mullin. I am an apiring web developer from Tacoma, Washington. Currently, I work in the medical field as an ophthalmic technician but am looking to make the switch into the world of software development. I grew up in Seatac, WA and finished Highschool in Puyallup, WA. I then went off to the University of Washington to study Neurobiology. I Graduated with my Bachelor of Science degree in 2018 and have been working as an Ophthalmic technician since. I have always had an interest in how software is created but have never thought to pursue this as a career option until recently. At the moment, I am a student in Career Foundry's Full Stack Web Development BootCamp where I will learn all of the skills necessary to become a successful web developer. </p>
+        </div>
+        <div class="skills">
+          <h3> Skills and Experience </h3>
+          <table class="skilltable">
+            <thead>
+              <tr class="tablehead">
+                <td>Skills</td>
+                <td>Years of Experience</td>
+                <td>Level of Expertise</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HTML</td>
+                <td>Less than 1</td>
+                <td>Junior</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>Less than 1</td>
+                <td>Junior</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>Less than 1</td>
+                <td>Junior</td>
+              </tr>
+              <tr>
+                <td>jQuery</td>
+                <td>Less than 1</td>
+                <td>Junior</td>
+              </tr>
+              <tr>
+                <td>Bootstrap</td>
+                <td>Less than 1</td>
+                <td>Junior</td>
+              </tr>
+              <tr>
+                <td>Node.js</td>
+                <td>Less than 1</td>
+                <td>Junior</td>
+              </tr>
+              <tr>
+                <td>React/React Native</td>
+                <td>Less than 1</td>
+                <td>Junior</td>
+              </tr>
+              <tr>
+                <td>Angular</td>
+                <td>Less than 1</td>
+                <td>Junior</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="work" class="work-content">
+        <h1 class="work-heading1">Work</h1>
+        <div class="worklist">
+          <div class="work-item">
+            <h2 class="work-heading"><a href="https://aemullin.github.io/simple-js-app/index.html">Pokedex App</a></h2>
+            <img class="work-img" src="img/Pokedex.PNG" width="40%" height="auto">
+            <p class="work-description">This Pokedex app combines Javascript, HTML and CSS in a Bootstrap framework that allows the user to search and browse information on the original 151 pokemon. This app comunicates to Poke api, an external api. <br> <a href="https://github.com/aemullin/simple-js-app.git">View this project on github!</a></p>
+          </div>
+          <div class="work-item">
+            <h2 class="work-heading"><a href="https://aemullin.github.io/myFlix-Angular-client">myFlix Angular client</a></h2>
+            <img class="work-img" src="img/myFlix-angular.JPG" width="40%" height="auto">
+            <p class="work-description">Another front end of my movielist API, this time using Angualr. Just like movieList, myFlix allows users to register for an account and favorite movies they enjoy. <br> <a href="https://github.com/aemullin/myFlix-Angular-client.git">View this project on github!</a></p>
+          </div>
+          <div class="work-item">
+            <h2 class="work-heading"><a href="https://aemullin.github.io/meet/" >Meet App</a></h2>
+            <img class="work-img" src="img/meet.JPG" width="40%" height="auto">
+            <p class="work-description">Meet is a serverless progressive web application that pulls information from the google calendar API. This application allows users to browse developer events by area to see what is going on closest to them. <br> <a href="https://github.com/aemullin/meet.git">View this project on github!</a></p>
+          </div>
+          <div class="work-item">
+            <h2 class="work-heading">Chat app</h2>
+            <div class="chat-container">
+              <img class="chat-img" src="img/chat-app.png" >
+              <img class="chat-img" src="img/chat-message.jpeg">
+            </div>
+            <p class="work-description">Chat is a messaging app that allows users to share messages, images and their location. It also allows users the ability to customize their chat interface. <br> <a href="https://github.com/aemullin/chat-app.git">View this project on github!</a></p>
+          </div>
+          <div class="work-item">
+            <h2 class="work-heading"><a href="https://movielist11.netlify.app/">MovieList React client</a></h2>
+            <img class="work-img react-img" src="img/movieList-react.JPG" width="40%" height="auto">
+            <p class="work-description">This app utilizes my movielist API in a react framework. This app is a movie data base that allows users to register for accounts and add movies to a favorites list. <br> <a href="https://github.com/aemullin/movieList-client.git">View this project on github!</a> </p>
+          </div>
+          <div class="work-item">
+            <h2 class="work-heading"><a href="https://movie-list-api-5858.herokuapp.com/documentation.html">Movielist API</a></h2>
+            <p class="work-description">Movielist vAPI, is a RESTful API that communicates with a mongoDB database containing information on movies and users. This API allows users to register and view information on movies and their directors in addition to allowing the user to add and remove movies to a favorites list. This API combines Node.js, MongoDB and Mongoose. <br> <a href="https://github.com/aemullin/Movie-API.git">View this project on github! </a> </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact-content">
+         <div> 
+          <h1 class="contacth1">Contact Me</h1>
+          <ul class="contactinfo">
+            <div><a href="mailto:amullin68@gmail.com" class="email">amullin68@gmail.com</a></div>
+            <div><a href="tel:+12069149490" aria-label="Two Zero Six Nine One Four Nine Four Nine Zero" class="phone">(206) 914-9490</a></div>
+          </ul>
+        </div>
+      </section>
+      <footer>
+        <p>Follow me on</p>
+        <div class="socialmedia">
+          <a href="https://github.com/aemullin"><img height="30" width="30" src="img/github_logo.png" alt="github"></a>
+          <a href="https://twitter.com/aemullin1"><img height="30" width="30" src="svg/twitter_logo.svg" alt="twitter"></a>
+          <a href="https://medium.com/@aemullin"><img height="30" width="30" src="svg/medium_logo.svg" alt="medium"></a>
+          <a href="https://www.linkedin.com/in/alexander-mullin-b8b60013a/"><img height="32" width="32" src="svg/linkedin_logo.svg" alt="linkedin"></a>
+        </div>
+      </footer>
     </div>
 
-    <footer class="pagefooter">
-      <p>Follow me on</p>
-      <div class="socialmedia">
-        <a href="https://github.com/aemullin"><img height="30" width="30" src="img/github_logo.png" alt="github"></a>
-        <a href="https://twitter.com/aemullin1"><img height="30" width="30" src="svg/twitter_logo.svg" alt="twitter"></a>
-        <a href="https://medium.com/@aemullin"><img height="30" width="30" src="svg/medium_logo.svg" alt="medium"></a>
-        <a href="https://www.linkedin.com/in/alexander-mullin-b8b60013a/"><img height="32" width="32" src="svg/linkedin_logo.svg" alt="linkedin"></a>
-      </div>
-    </footer>
+
+
+
   </body>
 </html>
