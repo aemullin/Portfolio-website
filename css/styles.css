@@ -196,6 +196,10 @@ ul {
   text-align: center;
 }
 
+.worklist{
+  padding-left: 0;
+}
+
 .work-item {
   background-color: var(--secondary-color);
   padding: 10px;
